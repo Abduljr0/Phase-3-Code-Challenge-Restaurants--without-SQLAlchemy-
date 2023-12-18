@@ -1,11 +1,11 @@
 class Resturant:
-    def __init__(self, name="Kibandaski"):
-        self.name =name
+    def __init__(self, name):
+        self._name =name
         
 
     def name(self):
-        return self.name
+        return self._name
     
 
-reaturant=Resturant("Kibandaski")
-print (reaturant.name)
+reaturant=Resturant("Kibandaski Hotel")
+print(reaturant.name())
