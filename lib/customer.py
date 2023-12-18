@@ -103,7 +103,27 @@ class Review:
     @classmethod
     def all(cls):
         return cls.all_reviews
+
+def main():
+    customer1 = Customer("Abdulqani", "Adan")
+    customer2 = Customer("John", "Okoth")
+    customer3 = Customer("Musa", "Masaai")
+
+    restaurant1 = Restaurant("KFC")
+    restaurant2 = Restaurant("CJ's")
+    restaurant3 = Restaurant("Pizza Hut")
+
+    review1 = Review(customer1, restaurant1, 3)
+    review2 = Review(customer2, restaurant2, 4)
+    review3 = Review(customer3, restaurant3, 2)
+
     
+    print(customer1.full_name())  
+    print(customer2.full_name())
+
+    for review in Review.all():
+     print(f"Review - Customer: {review.customer().full_name()}, Restaurant: {review.restaurant().name()}, Rating: {review.rating()}")
+
 
 
 
