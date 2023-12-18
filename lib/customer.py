@@ -108,14 +108,17 @@ def main():
     customer1 = Customer("Abdulqani", "Adan")
     customer2 = Customer("John", "Okoth")
     customer3 = Customer("Musa", "Masaai")
+    customer4 = Customer("Nasir" , "Hassan")
 
-    restaurant1 = Restaurant("KFC")
-    restaurant2 = Restaurant("CJ's")
-    restaurant3 = Restaurant("Pizza Hut")
+    restaurant1 = Restaurant("Kibandaski")
+    restaurant2 = Restaurant("Chicken pop")
+    restaurant3 = Restaurant("Ethiopian cuisine")
 
     review1 = Review(customer1, restaurant1, 3)
     review2 = Review(customer2, restaurant2, 4)
-    review3 = Review(customer3, restaurant3, 2)
+    review3 = Review(customer3, restaurant3, 5)
+    review4 = Review(customer4, restaurant3, 4.5)
+
 
     
     print(customer1.full_name())  
@@ -123,6 +126,9 @@ def main():
 
     for review in Review.all():
      print(f"Review - Customer: {review.customer().full_name()}, Restaurant: {review.restaurant().name()}, Rating: {review.rating()}")
+
+if __name__ == '__main__':
+    main()
 
 
 
