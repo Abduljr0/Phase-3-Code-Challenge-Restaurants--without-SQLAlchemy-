@@ -127,8 +127,10 @@ def main():
     for review in Review.all():
      print(f"Review - Customer: {review.customer().full_name()}, Restaurant: {review.restaurant().name()}, Rating: {review.rating()}")
 
+
 if __name__ == '__main__':
     main()
+
 
 
 
