@@ -20,3 +20,29 @@ Access customer, restaurant, and rating details.
 Usage
 
 Create customers, restaurants, and reviews. Retrieve names, restaurants, and average ratings. Explore additional features like finding customers or retrieving all instances.
+
+
+Python shell
+
+    Copy and paste the codes in the python shell.
+
+Code runner
+
+Use the code runner in vs code to test your codes.
+TECHNOLOGY USED
+
+python
+LICENSE
+
+MIT license
+AUTHORS INFO
+
+Contributing
+
+Contributions, bug reports, and suggestions are welcome. Feel free to open issues or pull requests.
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+[Abdulqani Adan] github:Abduljr0
