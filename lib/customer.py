@@ -39,21 +39,19 @@ class Customer:
     def all(cls):
         return cls.customers
     
-customer1=Customer("Ali", "Musa")
-customer3=Customer("Jeff", "Ainestein")
-customer4=Customer("John", "Akoth")
-customer5=Customer("John5", "Ainestein")
-customer6=Customer("John", "Eestein")
-customer7=Customer("John", "Dnestein")
-customer8=Customer("John", "Ainestein")
-customer9=Customer("John", "Ainestein")
+#customer1=Customer("Ali", "Musa")
+#customer3=Customer("Jeff", "Ainestein")
+#customer6=Customer("John", "Eestein")
+#customer7=Customer("John", "Dnestein")
+#customer8=Customer("John", "Ainestein")
+#customer9=Customer("John", "Ainestein")
 
 
-customer1._first_name = "Khalid"
+
 
 #customer1.full_name
 #customers= Customer.all()
-print(customer3.first_name())
+
 
 class Restaurant:
     restaurants = []
